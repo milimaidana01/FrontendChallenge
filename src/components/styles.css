@@ -1,0 +1,179 @@
+.sidebar {
+    background-color: #12416F;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .infoCard {
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Mada;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 28px;
+    border-bottom: 1px solid white;
+  }
+  
+  .logo {
+    height: 49px;
+    width: 168px;
+    padding: 26px 0 26px 28px;
+  }
+  
+  .sections {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    color: #FFF;
+    font-family: Mada;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+  }
+  
+  .sections div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .arrow {
+    width: 7.401px;
+    height: 12px;
+    padding: 0 4px;
+    margin-right: 6px;
+  }
+  
+  .subsections {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    color: #FFF;
+    font-family: Mada;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+  }
+  
+  .subsections div {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .subsections .arrow {
+    margin-right: 6px;
+  }
+  
+  .content {   
+    height: 100%;
+    background: #FAFAFA;
+  }
+  
+  .headerLeft {
+    display: flex;
+    color: #787E8F;
+    font-family: Mada;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-items: center;
+  }
+  
+  .header {
+    height: 46px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #E0E0E0;
+    justify-content: space-between;
+  }
+  
+  .title {
+    height: 46px;
+    color: #3D3E40;
+    display: flex;
+    font-family: Mada;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 4px 20px;
+  }
+  
+  .columnsContainer {
+    height: 74%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 80px;
+  }
+  
+  .columnLeft {
+    flex: 1;
+  }
+  
+  .columnRight {
+    flex: 1;
+  }
+  
+  .card {
+    border-radius: 9px;
+    border: 1px solid #E1E1E1;
+    background: #FFF;
+    display: flex;
+    width: 420px;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 12px 20px;
+    margin-bottom: 2px;
+    border-left: 4px solid #12416F;
+  }
+  
+  .cardTitle {
+    color: var(--primary-main, #12416F);
+    font-family: Mada;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0.1px;
+  }
+  
+  .cardSubtitle {
+    color: #787E8F;
+    font-family: Mada;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .cardExtraSubtitles {
+    color: #12416F;
+    font-family: Mada;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .presupuestoSubsections {
+    padding-left: 20px;
+    margin-top: 8px;
+  }
+
